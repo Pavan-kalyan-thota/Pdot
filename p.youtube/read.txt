@@ -1,1 +1,1 @@
-read the files
+By adding this extension in chrome we can download videos directly from youtube by clicking download option made available by extension.
