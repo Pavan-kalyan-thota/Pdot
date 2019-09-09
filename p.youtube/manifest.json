@@ -1,0 +1,14 @@
+{
+  "name":"youtube video downloader",
+  "description":"download option in youtube.",
+  "version":"0.1",
+  "author":"Thota Pavan",
+  "manifest_version":2,
+  "web_accessible_resources": ["youtubedl.js"],
+  "content_scripts":[
+    {
+      "matches":["https://www.youtube.com/watch*"],
+      "js":["loader.js"]
+    }
+  ]
+}
