@@ -8,11 +8,9 @@ window.onload = function() {
   });
   console.log("our extension is loaded",videoUrls);
 }
-var container1 = document.getElementById("container");
-var container2 = document.getElementById("info");
-var btn = document.createElement("button").style.display="inline-block";
+var container = document.getElementById("info");
+var btn = document.createElement("button");
 btn.className = "style-scope ytd-video-primary-info-renderer";
-btn.setAttribute("force-default-style", "")
 btn.setAttribute("role", "button");
 btn.innerText="Download";
-container1.appendChild(btn);
+container.appendChild(btn);
