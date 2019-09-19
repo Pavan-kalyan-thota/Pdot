@@ -9,7 +9,7 @@
     {
       "matches":["https://www.youtube.com/watch*"],
       "js":["loader.js"],
-      "css": ["styl.css']
+      "css": ["styl.css"]
     }
   ]
 }
